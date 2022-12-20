@@ -17,3 +17,25 @@
 	Imprimir time(1500)
   FinAlgoritmo
   
+## Challenge 2 - Distancia a Cero
+
+``` python
+
+	Funcion comparar <- distancia (x) 
+	Imprimir "Ingrese sus numeros" 
+	Para x=0 hasta 4 Con paso 1 Hacer 
+	leer z
+	si z>=0 entonces n=z+n
+		sino t=z+t
+		FinSi
+	FIn Para
+	Si abs(n) > abs(t) entonces 
+		Imprimir "Verdadero"
+		Sino Imprimir "Falso"
+	FinSi
+	FinFuncion
+
+	Algoritmo Distancias
+	Imprimir distancia(x)
+	FinAlgoritmo
+``` 
