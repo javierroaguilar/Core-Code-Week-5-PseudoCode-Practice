@@ -1,7 +1,8 @@
 # Core-Code-Week-5-PseudoCode-Practice
 
-python
 ## Challenge 1 - TiempoEnSegundos
+
+``` python
 
   Funcion tiempo <- time(segundoss)
 	definir dia, hora, min, seg como entero;
@@ -13,6 +14,6 @@ python
   FinFuncion
 
   Algoritmo TiempoenSegundos
-	Imprimir time(150)
+	Imprimir time(1500)
   FinAlgoritmo
   
