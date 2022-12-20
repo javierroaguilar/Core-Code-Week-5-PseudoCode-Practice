@@ -16,6 +16,7 @@
   Algoritmo TiempoenSegundos
 	Imprimir time(1500)
   FinAlgoritmo
+  ```
   
 ## Challenge 2 - Distancia a Cero
 
