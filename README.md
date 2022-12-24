@@ -107,3 +107,38 @@
 	Imprimir cashier[x]
 	FinAlgoritmo
 ```
+
+## Challenge 6 - weather
+
+``` python
+
+	Funcion c <- weather[n]
+	Repetir 
+	Imprimir "Select one of the options"
+	Imprimir "a. Temperature in Celsius" 
+	Imprimir "b. Temperature in Farenheit" 
+	Imprimir "x. Para salir del programa"
+	Leer n
+	w = w
+	si mayusculas(n) == "A" Entonces
+		Imprimir "Ingrese temperatura"
+		leer a
+		r= r+a
+		sino 
+		si mayusculas(n) == "B" Entonces
+			Imprimir "Ingrese temperatura"
+			leer a
+			x = (a*(9/5))+32
+			r = r+x
+		FinSi
+	FinSi
+	p=p+1
+	Hasta que mayusculas(n) == "X"
+	promedio = r/p
+	Imprimir promedio
+	FinFuncion
+
+	Algoritmo clima
+	imprimir weather[n]
+	FinAlgoritmo	
+```
