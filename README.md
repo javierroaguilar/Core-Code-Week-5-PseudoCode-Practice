@@ -60,3 +60,20 @@
 	Imprimir SumOfPairs[x]
 	FinAlgoritmo
 ``` 
+
+## Challenge 4 - MidPoint
+
+``` python
+
+	Funcion sum <- MidPoint[x,z]
+	Imprimir "ingrese numero 1"
+	leer x
+	Imprimir "ingrese numero 1"
+	leer z
+	n=((z+x)/2)
+	Imprimir n
+	FinFuncion
+	Algoritmo PuntoMedio
+	Imprimir MidPoint[x,z]
+	FinAlgoritmo
+```
