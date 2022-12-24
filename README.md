@@ -166,3 +166,11 @@ while(i<16){
     i++
 }
 ``` 
+## Challenge 9 - For in JavaScript
+
+``` Javascript
+
+let p;
+for(p=0;p<20; p++)
+{console.log(p*2)};
+```
