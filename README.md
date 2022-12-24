@@ -142,3 +142,27 @@
 	imprimir weather[n]
 	FinAlgoritmo	
 ```
+
+## Challenge 7 - If in JavaScript
+
+``` Javascript
+
+let x =10;
+let y=8;
+if (x>y){
+    console.log("Operando Suma");
+    console.log(x+y);
+}
+else {console.log("No se pudo")};
+```
+
+## Challenge 8 - While in JavaScript
+
+``` Javascript
+
+let i;
+while(i<16){
+    console.log(i)
+    i++
+}
+``` 
