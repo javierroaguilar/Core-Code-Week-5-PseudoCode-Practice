@@ -76,4 +76,34 @@
 	Algoritmo PuntoMedio
 	Imprimir MidPoint[x,z]
 	FinAlgoritmo
+```	
+
+## Challenge 5 - Cashier
+
+``` python
+	Funcion cas <- cashier[x]
+	Repetir 
+	Imprimir "Select an option:" 
+	Imprimir "a. to deposit." 
+	Imprimir "b. withdraw." 
+	Imprimir "c. go out."
+	leer x
+	Si mayusculas(x) == "A" entonces 
+		Imprimir "How much would you like to deposit?"
+		leer n
+		balance = balance + n
+	sino 
+		si mayusculas(x) == "B" Entonces
+			Imprimir "How much would you like to withdraw"
+			leer n
+			balance = balance - n
+			fin SI 
+		FinSi
+		Imprimir "Saldo Actual " balance +1000
+	Hasta que mayusculas(x) == "C"
+	Imprimir "Gracias por la operacion, feliz día"
+	FinFuncion
+	Algoritmo Cash
+	Imprimir cashier[x]
+	FinAlgoritmo
 ```
