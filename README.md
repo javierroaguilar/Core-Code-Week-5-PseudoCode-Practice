@@ -40,3 +40,23 @@
 	Imprimir distancia(x)
 	FinAlgoritmo
 ``` 
+
+## Challenge 3 - Sum Of Pairs
+
+``` python
+
+	Funcion operar<-SumofPairs[x]
+	Repetir 
+		Imprimir "ingresa numero"
+		leer x
+		si x%2=0 entonces 
+			n=x+n
+		FinSi
+		Hasta QUe x<0 | x>101
+	imprimir "Número ingresado fuera del rango"
+	Imprimir "Total números pares: " n
+	FinFuncion
+	Algoritmo SumPairs
+	Imprimir SumOfPairs[x]
+	FinAlgoritmo
+``` 
